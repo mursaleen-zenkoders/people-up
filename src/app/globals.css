@@ -14,6 +14,7 @@
 
   --color-secondary-600: var(--secondary-600);
   --color-secondary-500: var(--secondary-500);
+  --color-neutral-light: var(--neutral-light);
   --color-neutral-950: var(--neutral-950);
   --color-neutral-900: var(--neutral-900);
   --color-neutral-800: var(--neutral-800);
@@ -23,7 +24,9 @@
   --color-neutral-400: var(--neutral-400);
   --color-neutral-100: var(--neutral-100);
   --color-neutral-50: var(--neutral-50);
-  --color-yellow: var(--yellow);
+  --color-primary-900: var(--yellow-900);
+  --color-primary-300: var(--yellow-300);
+  --color-yellow-400: var(--yellow-400);
   --color-gray: var(--gray);
   --color-h: var(--h);
   --color-p: var(--p);
@@ -71,6 +74,7 @@
 :root {
   /* App Styling */
   --font-plain: 'plain', sans-serif;
+  --neutral-light: #474b5d0a;
   --secondary-600: #0690ff;
   --secondary-500: #4b98fa;
   --neutral-950: #191a1f;
@@ -82,7 +86,9 @@
   --neutral-400: #8b92a5;
   --neutral-100: #f6f7f9;
   --neutral-50: #f6f7f9;
-  --yellow: #eedc21;
+  --yellow-900: #6c4817;
+  --yellow-400: #eedc21;
+  --yellow-300: #f2e938;
   --gray: #3e424e2b;
   --h: #21222a;
   --p: #656580;
